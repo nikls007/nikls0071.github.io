@@ -1,0 +1,586 @@
+/* colors */
+body,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+
+ 
+
+.body h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+
+
+  /* font family */
+/* basic setting */
+.header {
+  height: 87px;
+  background: #050708;
+}
+.header p,
+h3 {
+  color: #FFFFFF;
+}
+.header img {
+  margin-top: 18px;
+}
+.header p {
+  
+  margin-top: 18px;
+  width: 344px;
+  height: 42px;
+  color: #ffffff;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 20px;
+  font-weight: bold;
+}
+.header h3 {
+  margin-top: 10px;
+  
+}
+.header button {
+  border: none;
+  margin-top: -10px;
+  color: #94ca2d;
+  font-family: "Helvetica Neue Cyr";
+  background: #050708;
+  /* Синий цвет фона */
+  font-size: 20px;
+}
+.box h2 {
+  margin-left: 4.5%;
+  margin-top: 110px;
+  font-size: 39px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.box {
+  
+  background: #ffffff url(../img/n.png) center center no-repeat;
+   background-position: center;
+        background-size: cover;
+}
+.box p {
+  margin-top: 29px;
+}
+.box button {
+  width: 270px;
+  height: 62px;
+  font-size: 20px;
+  background: green;
+}
+.box p,img{
+  margin-left: 4%;
+}
+.box2{
+  background-color: #F8F8F0;
+}
+.box2 button {
+  margin-top: 37px;
+}
+.box2 button {
+  width: 507px;
+  height: 67px;
+  font-size: 20px;
+  background: green;
+
+}
+
+.box2 img {
+  margin-left: 4.7%;
+  margin-top: 0;
+   max-width: 100%;
+    height: auto;
+}
+
+.box2 h2 {
+  font-size: 35px;
+  color: black;
+}
+.box2 p {
+  font-size: 17px;
+}
+.box2 h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.box2 li {
+  font-size: 15px;
+}
+.box2 h4{
+  font-size: 25px;
+  margin-left: 150px;
+}
+.box2 p{
+  margin-top: 40px;
+}
+.box2 h5{
+  text-align: right;
+}
+.box2 figcaption{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+
+
+
+.margin-50{
+  height: 150px;
+  background: #F8F8F0;
+}
+
+.box3{
+  height: 100%;
+   
+  background: #ffffff url(../img/box3.png) center center no-repeat;
+  background-position: center;
+        background-size: cover;
+    
+} 
+
+
+
+
+
+ .schema{
+    background: #ffffff url(../img/8fon.jpg) center center no-repeat;
+  background-position: center;
+     background-size: cover;    
+    
+}                                                                                                                                            
+
+
+
+
+
+
+
+.margin-35{
+  height: 50px;
+}
+/* Базовый стиль формы */
+.main-form{
+  
+  width: 40rem;
+  height: 357px;
+  border-radius: 3px;
+  border: 4px solid #21a3af;
+  background-color: #000000;
+    
+  
+  
+}
+.main-form input{
+  margin-top: 8px;
+  margin-left:57px;
+  width: 270px;
+  height: 54px;
+  border-radius: 3px;
+  border: 2px solid #ffffff;
+  background: black;
+}
+.main-form h2{
+ font-size: 22px;
+ font-weight: 500;
+ color: #ffffff;
+  margin-left:70px;
+  margin-top:40px;
+  text-align: left;
+}
+.margin-33{
+  height: 20px;
+}
+.main-form button{
+  margin-left:57px;
+  margin-top: 10px;
+width: 270px;
+height: 62px;
+border:none;
+border-radius: 3px;
+background-color: #94ca2d;
+}
+.main-form small{
+  font-size: 15px;
+ font-weight: bold;
+ color: #fff;
+ margin-left:70px;
+
+
+}
+
+.margin-3{
+  height:100px;
+  background:#FCFCF6;
+}
+.schema h1{
+    font-size: 35px;
+   font-weight: bold;
+   line-height: 40px;
+    color: #ffff;
+    margin-left: 15%;
+
+}
+.schema h5{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+     margin-left: 15%;
+}
+
+.schema h3{
+    font-size: 22px;
+    font-weight: bond;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.schema h2{
+    font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+
+ .schema h6{
+     margin-top: 4rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+      margin-left: 30%;
+ }
+
+.box4 h3{
+  font-size: 22px;
+ font-weight: bold;
+ color:black;
+ padding-left: 50px;
+ position: relative;
+ margin-bottom: 50px;
+
+}
+.box4 h3:before{
+  content:"";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:#FCFCF6 url(../img/43.png) center center no-repeat;;
+}
+
+.box4 h2{
+  font-size: 22px;
+ font-weight: bold;
+ color:black;
+ padding-left: 50px;
+ position: relative;
+ margin-bottom: 50px;
+ 
+}
+.box4 h2:before{
+  content:"";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:#FCFCF6 url(../img/44.png) center center no-repeat;
+}
+.box4 img{
+
+  max-width: 100%;
+    height: auto;
+}
+
+
+.box4 p{
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  
+}
+.box4{
+  background:#FCFCF6;
+  
+}
+.box5{
+  height: 100%;
+   background:#FCFCF6 url(../img/591fon.png) center center no-repeat;
+   
+        
+    background-size: cover;
+    background-position: center;
+
+
+
+  }
+.box5 h1{
+  font-size: 35px;
+ font-weight: bold;
+ text-align: center;
+}
+.box5 p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.box5 h2{
+  margin-top: 100px;
+  font-size: 35px;
+ font-weight: bold;
+}
+.margin-35{
+  height: 70px;
+}
+.box5 h3{
+  margin-top:200px;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+.box5 img{
+  margin-left:0;
+   max-width: 100%;
+    height: auto;
+}
+.box5 h6{
+  font-size: 18px;
+ font-weight: bold;
+ margin-top:0;
+}
+.box5 h4{
+  font-size: 22px;
+ font-weight: bold;
+ color: #fff;
+ text-align: center;
+}
+
+.box5 span{
+  margin-left: 530px;
+}
+
+.box51{
+     height: 350px;
+   background:#FCFCF6 url(../img/592fon.png) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+        
+
+.box6{
+   background:#FCFCF6 ;
+
+}
+
+.box6 img{
+   max-width: 100%;
+    height: auto;
+}
+
+.box6 h1,h3{
+  text-align: center;
+}
+.box6 h1{
+  
+}
+
+.box6 h2{
+  margin-top:52px;
+  text-align: center;
+}
+.box6 h3{
+  margin-top:50px;
+}
+.box6 button{
+  margin-top: 35px;
+}
+.box6 p{
+  text-align: left;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.box7 h1{
+  margin-top:75px;
+  text-align: center;
+}
+.box7 h2{
+  margin-top:100px;
+  font-size: 18px;
+ font-weight: bold;
+ color:black;
+ padding-left: 120px;
+ position: relative;
+ margin-bottom: 50px;
+ 
+}
+.box7 h2:before{
+  content:"";
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:#FCFCF6 url(../img/boy.png) center center no-repeat;;
+}
+.box7 p{
+  margin-top:75px;
+  font-size: 17px;
+ font-weight: bold;
+line-height: 24px;
+
+
+}
+.margin-6{
+  height: 50px;
+}
+.box7{
+  background-color: #FCFCF6;
+}
+ .block-border{
+  border:1px solid #9DD8D4;
+}
+.margin-8{
+  height: 100px;
+}
+.box8{
+  background-color: #FCFCF6;
+}
+.box8 h1{
+  margin-top:100px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.box8 p{
+  margin-top:20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.box9{
+   height: 425px;
+   background: #ffffff url(../img/7fon.jpg) center center no-repeat;
+  background-position: center;
+        background-size: cover;
+}
+.box9 h1{
+  color: #ffff;
+  margin-top:75px;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.main-form{
+  margin-top: 20px;
+}
+.box10 h1{
+  margin-top:57px;
+ text-align: center;
+ font-size: 35px;
+ font-weight: bold;
+}
+.box10{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer {
+  height: 87px;
+  background: #050708;
+}
+.footer p,
+h3 {
+  color: #FFFFFF;
+}
+.footer img {
+  margin-top: 18px;
+}
+.footer p {
+  
+  margin-top: 18px;
+  width: 344px;
+  height: 42px;
+  color: #ffffff;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer h3 {
+  margin-top: 10px;
+  text-align: right;
+}
+.footer button {
+  border: none;
+  margin-top: -10px;
+  color: #94ca2d;
+  font-family: "Helvetica Neue Cyr";
+  background: #050708;
+  font-size: 20px;
+}
+
+.margin-9{
+  height: 80px;
+}
+ hr {
+    border: none; /* Убираем границу */
+    background-color: #18A7D0; /* Цвет линии */
+    color: #18A7D0; /* Цвет линии для IE6-7 */
+    height: 6px; /* Толщина линии */
+    width: 60px;
+  }
+.popup{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    padding: 4rem 6rem;
+    background-color: #ffff;
+    &-close{
+      position: absolute;
+        top:0;
+        right: 2rem;
+        width: 2rem;
+        font-size: 4rem;
+    }
+    &-content{
+        text-align: center;
+    }
+}
+.popup-form input{
+    text-align: center;
+}
+.popup-content h4,p{
+    text-align: center;
+}
+.popup-close{
+     right: 2rem;
+        width: 2rem;
+        font-size: 4rem;
+}
+
+
+
+
+
+
