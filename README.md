@@ -1,2 +1,2 @@
-# nikls0071.github.io
+# nikls00711.github.io
 diplom2
